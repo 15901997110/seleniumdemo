@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../js/jquery-3.3.1.min.js"></script>
+</head>
+<body>
+<div>
+    <h3>inner</h3>
+    <iframe id="f2" src="http://www.baidu.com" width="500" height="500"></iframe>
+    <a href="javascript:void(0);" id="innerA">这是一个a标签</a>
+</div>
+<script>
+    $("#innerA").click(function () {
+        alert("inner A被点击了");
+    });
+</script>
+</body>
+</html>
